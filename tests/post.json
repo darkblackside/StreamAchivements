@@ -1,0 +1,36 @@
+{ 
+    "archivement": {
+        "title":"test",
+        "text":"Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+        "values":[
+            {
+                "name":"Test1",
+                "goal": 200,
+                "actual": 100
+            },
+            {
+                "name":"Kills",
+                "goal": 10,
+                "actual": 0
+            }
+        ],
+        "author":{
+            "name":"darkblackside",
+            "url":"http://twitch.tv/darkblackside"
+        },
+        "validatedBy":"darkblackside",
+        "validatedTime":"2016-10-09T13:04:23.732Z",
+        "streamers":[
+            {
+                "startTime":"2016-10-09T13:04:23.732Z",
+                "endTime":"2016-10-09T13:04:23.732Z",
+                "streamer":{
+                    "name":"darkblackside",
+                    "url":"http://twitch.tv/darkblackside"
+                }
+            }
+        ],
+        "startTime":"2016-10-09T13:04:23.732Z",
+        "goalTime":"2016-10-09T13:04:23.732Z"
+    }
+}
