@@ -1,0 +1,107 @@
+@fullwidth: 300px;
+@rightchevron: 30px;
+@bottombuttons: 30px;
+@paddingtobordertopbottom: 5px;
+@paddingtoborderrightleft: 10px;
+@horizontalline: 1px;
+@horizontalline-color: #fff;
+@buttonpadding: 10px;
+
+.quest
+{
+  position: relative;
+  margin-bottom: 10px;
+  right: 0px;
+  width: @fullwidth;
+  background-color: grey;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+
+  .left {
+    width: (@fullwidth - 2*@paddingtoborderrightleft - @rightchevron);
+    float:left;
+    padding: @paddingtobordertopbottom 0px 0px @paddingtoborderrightleft;
+
+    h1
+    {
+      font-size: 120%;
+      margin: 0px;
+      margin-bottom: @paddingtobordertopbottom;
+    }
+  }
+  .right
+  {
+    width: @rightchevron;
+    min-height: @rightchevron;
+    float: right;
+    font-size: @rightchevron;
+    padding: @paddingtobordertopbottom @paddingtoborderrightleft 0px 0px;
+  }
+
+  .right:hover
+  {
+    cursor: pointer;
+  }
+
+  .fulltext
+  {
+    clear: both;
+
+    .short
+    {
+      p:first-child
+      {
+        margin-top: 0px;
+      }
+
+      padding: 0px @paddingtoborderrightleft 5px @paddingtoborderrightleft;
+    }
+
+    p
+    {
+      margin: @paddingtobordertopbottom 0px @paddingtobordertopbottom 0px;
+    }
+
+    .long
+    {
+      border-top: @horizontalline solid @horizontalline-color;
+      border-bottom: @horizontalline solid @horizontalline-color;
+      padding: 5px @paddingtoborderrightleft 5px @paddingtoborderrightleft;
+    }
+  }
+
+  .getBy,.goal,.acceptDecline
+  {
+    padding: 5px @paddingtoborderrightleft 5px @paddingtoborderrightleft;
+  }
+
+  .goalTime
+  {
+    padding: 5px 0px 5px @paddingtoborderrightleft;
+    min-width: (@fullwidth - 2*@paddingtoborderrightleft - 2*@rightchevron - @buttonpadding);
+    float: left;
+  }
+
+  .acceptDecline
+  {
+    span
+    {
+      font-size: @bottombuttons;
+      padding-right: @buttonpadding;
+    }
+    span:last-child
+    {
+      padding-right: 0px;
+    }
+
+    float: right;
+
+    padding: 0px @paddingtoborderrightleft @paddingtobordertopbottom 0px;
+
+    ::after
+    {
+      clear: both;
+    }
+  }
+}

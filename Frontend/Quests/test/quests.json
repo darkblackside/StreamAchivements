@@ -1,0 +1,70 @@
+[
+  {
+    "id":1,
+    "title":"TBOI: Eine Challenge",
+    "text":"Eine Challenge erledigen",
+    "values":[
+        {
+	          "id":3,
+            "name":"Challenges",
+            "goal": 1,
+            "actual": 0
+        }
+    ],
+    "author":{
+        "id":4,
+        "name":"darkblackside",
+        "url":"http://twitch.tv/darkblackside"
+    },
+    "validatedBy":"darkblackside",
+    "validatedTime":"2016-10-09T13:04:23.732Z",
+    "streamers":[
+        {
+            "id":5,
+            "startTime":"2016-10-09T13:04:23.732Z",
+            "endTime":"2016-10-09T13:04:23.732Z",
+            "streamer":{
+                "id":4,
+                "name":"darkblackside",
+                "url":"http://twitch.tv/darkblackside"
+            }
+        }
+    ],
+    "startTime":"2016-10-09T13:04:23.732Z",
+    "goalTime":"2016-10-31T13:04:23.732Z"
+  },
+  {
+    "id":1,
+    "title":"TBOI: Fünf Challenges",
+    "text":"Fünf Challenges erledigen",
+    "values":[
+        {
+	          "id":3,
+            "name":"Challenges",
+            "goal": 5,
+            "actual": 0
+        }
+    ],
+    "author":{
+        "id":4,
+        "name":"darkblackside",
+        "url":"http://twitch.tv/darkblackside"
+    },
+    "validatedBy":"darkblackside",
+    "validatedTime":"2016-10-09T13:04:23.732Z",
+    "streamers":[
+        {
+            "id":5,
+            "startTime":"2016-10-09T13:04:23.732Z",
+            "endTime":"2016-10-09T13:04:23.732Z",
+            "streamer":{
+                "id":4,
+                "name":"darkblackside",
+                "url":"http://twitch.tv/darkblackside"
+            }
+        }
+    ],
+    "startTime":"2016-10-09T13:04:23.732Z",
+    "goalTime":"2016-11-30T13:04:23.732Z"
+  }
+]

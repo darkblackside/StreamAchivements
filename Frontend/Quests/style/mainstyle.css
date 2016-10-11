@@ -1,0 +1,71 @@
+.quest {
+  position: relative;
+  margin-bottom: 10px;
+  right: 0px;
+  width: 300px;
+  background-color: grey;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.quest .left {
+  width: 250px;
+  float: left;
+  padding: 5px 0px 0px 10px;
+}
+.quest .left h1 {
+  font-size: 120%;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+.quest .right {
+  width: 30px;
+  min-height: 30px;
+  float: right;
+  font-size: 30px;
+  padding: 5px 10px 0px 0px;
+}
+.quest .right:hover {
+  cursor: pointer;
+}
+.quest .fulltext {
+  clear: both;
+}
+.quest .fulltext .short {
+  padding: 0px 10px 5px 10px;
+}
+.quest .fulltext .short p:first-child {
+  margin-top: 0px;
+}
+.quest .fulltext p {
+  margin: 5px 0px 5px 0px;
+}
+.quest .fulltext .long {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: 5px 10px 5px 10px;
+}
+.quest .getBy,
+.quest .goal,
+.quest .acceptDecline {
+  padding: 5px 10px 5px 10px;
+}
+.quest .goalTime {
+  padding: 5px 0px 5px 10px;
+  min-width: 210px;
+  float: left;
+}
+.quest .acceptDecline {
+  float: right;
+  padding: 0px 10px 5px 0px;
+}
+.quest .acceptDecline span {
+  font-size: 30px;
+  padding-right: 10px;
+}
+.quest .acceptDecline span:last-child {
+  padding-right: 0px;
+}
+.quest .acceptDecline ::after {
+  clear: both;
+}

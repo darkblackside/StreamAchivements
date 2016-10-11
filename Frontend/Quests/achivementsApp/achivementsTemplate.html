@@ -1,0 +1,39 @@
+<div class="all">
+<div class="quest" *ngFor="let achivement of achivements">
+  <div class="left">
+    <h1>{{achivement.title}}</h1>
+  </div>
+  <div class="right" (click)="achivement.expanded = !achivement.expanded">
+    <div class="open ion-chevron-down" *ngIf="!achivement.expanded"></div>
+    <div class="close ion-chevron-up" *ngIf="achivement.expanded"></div>
+  </div>
+  <div class="fulltext">
+    <div class="short" *ngIf="!achivement.expanded">
+    {{achivement.ShortText()}}
+    </div>
+    <div class="long" *ngIf="achivement.expanded">
+      {{achivement.text}}
+    </div>
+  </div>
+  <div class="getBy" *ngIf="achivement.expanded">
+    <span class="label">Ursprung:</span>
+    <span class="field">{{achivement.author.name}}</span>
+  </div>
+  <div class="goals" *ngIf="achivement.expanded">
+    <div class="goal" *ngFor="let value of achivement.values">
+      <span class="label">{{value.name}}:</span>
+      <span class="actual">{{value.actual}}</span>
+      <span class="delimiter">/</span>
+      <span class="valuegoal">{{value.goal}}</span>
+    </div>
+  </div>
+  <div class="goalTime" *ngIf="achivement.expanded">
+    <span class="label">Ende:</span>
+    <span class="time">{{achivement.GetGoalTime()}}</span>
+  </div>
+  <div class="acceptDecline" *ngIf="achivement.expanded">
+    <span class="accept ion-checkmark-round"></span>
+    <span class="decline ion-close-round"></span>
+  </div>
+</div>
+</div>
